@@ -19,7 +19,7 @@ DEFAULT_PASSWORD: ty.Optional[str] = os.getenv('PY_IPFS_HTTP_CLIENT_DEFAULT_PASS
 # This range inclusive-exclusive, so the daemon version must match
 #   `VERSION_MINIMUM <= version < VERSION_MAXIMUM`
 # for it to be considered compatible.
-VERSION_MINIMUM   = "0.5.0"
+VERSION_MINIMUM   = "0.1.0"
 VERSION_BLACKLIST = []
 VERSION_MAXIMUM   = "0.9.0"
 
